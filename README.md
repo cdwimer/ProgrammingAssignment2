@@ -106,10 +106,10 @@ This assignment will be graded via peer assessment.
 
 ### Code to test cachematrix.R
 
-source("cacheMatrix.R")
-a <- makeCacheMatrix(matrix(rnorm(25),nrow = 5,ncol = 5))
-a$get()
-a$getinverse()
-cacheSolve(a)
-a$getinverse()  # this is only to show you that the mean has been stored and does not affect anything
-cacheSolve(a)
+    source("cacheMatrix.R")
+    a <- makeCacheMatrix(matrix(rnorm(25),nrow = 5,ncol = 5))
+    a$get()
+    a$getinverse()
+    cacheSolve(a)
+    a$getinverse()  # this is only to show you that the mean has been stored and does not affect anything
+    cacheSolve(a)
