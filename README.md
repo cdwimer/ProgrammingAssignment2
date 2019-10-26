@@ -111,5 +111,5 @@ This assignment will be graded via peer assessment.
     a$get()
     a$getinverse()
     cacheSolve(a)
-    a$getinverse()  # this is only to show you that the mean has been stored and does not affect anything
+    a$getinverse()  # this is only to show you that the inverse has been stored and does not affect anything
     cacheSolve(a)
